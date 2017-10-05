@@ -13,7 +13,9 @@
     <script src="https://vuejs.org/js/vue.min.js"></script>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <p>{{text}}</p>
+    </div>
 </body>
 </html>
 ```

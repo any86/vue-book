@@ -1,4 +1,4 @@
-# 习俗, hello world
+# 免不了习俗, 我们也从hello world开始
 
 # 
 

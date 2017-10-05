@@ -1,13 +1,21 @@
 ### 免不了俗套, 我们也从hello world开始
 
-我们总共要做5步
+我们总共要做**5**步
 
 #### 第一步
 
 建立一个html, 在script标签中引入vue.js
 
 ```
-<script src="vue.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://vuejs.org/js/vue.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
 ```
 
 #### 第二步
@@ -22,6 +30,8 @@ new Vue({
     }
 });
 ```
+
+#### 第三步
 
 
 

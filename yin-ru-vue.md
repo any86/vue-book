@@ -4,7 +4,7 @@
 
 #### 第一步
 
-j建立一个html, 在script标签中引入vue.js
+建立一个html, 在script标签中引入vue.js
 
 ```
 <script src="vue.js"></script>

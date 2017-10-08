@@ -16,6 +16,10 @@
   * [实例生命周期](shi-li-sheng-ming-zhou-qi.md)
 * [第二步, 了解组件](di-er-6b652c-bian-xie-zu-jian.md)
 * [第三步, 编写可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
-* [第四步, spa与路由](lu-you.md)
-* [第五步, 动画](di-wu-6b652c-dong-hua.md)
+  * 安装vue-cli
+* [第四步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
+* [第五步, 路由-vue-router](lu-you.md)
+* [第六步, 动画](di-wu-6b652c-dong-hua.md)
+* [第七步, 状态管理-vuex](di-liu-6b652c-zhuang-tai-guan-li.md)
+* 第八步, 单元测试 - karma
 

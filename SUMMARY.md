@@ -35,6 +35,7 @@
 * [第五步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
+  * $nextTick
 * [第六步, 路由 - vue-router](lu-you.md)
   * 配置路由
   * router-link组件

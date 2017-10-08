@@ -34,11 +34,13 @@
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
   * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
-  * [写一个zoom动画](di-wu-6b652c-dong-hua/xie-yi-ge-zoom-dong-hua.md)
+  * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
+  * 写一个基于keyframes的动画效果
 * [第五步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
   * $nextTick
+* [写一个zoom动画](di-wu-6b652c-dong-hua/xie-yi-ge-zoom-dong-hua.md)
 * [第六步, 路由 - vue-router](lu-you.md)
   * 配置路由
   * router-link组件

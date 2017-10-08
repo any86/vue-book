@@ -51,6 +51,7 @@
   * [render函数](di-jiu-6b652c-dan-yuan-ce-shi/renderhan-shu.md)
 * [第九步, 单元测试 - karma](di-ba-6b652c-dan-yuan-ce-shi-karma.md)
 * [第十步, 服务端渲染](fu-wu-duan-xuan-ran.md)
-* 第十一步, 插件
-* [补充, 组件的高级特性](zu-jian-de-gao-ji-te-xing.md)
+* [第十一步, 插件](di-shi-yi-6b652c-cha-jian.md)
+  * 固定格式
+  * [组件的高级特性](zu-jian-de-gao-ji-te-xing.md)
 

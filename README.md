@@ -8,23 +8,17 @@
 
 暂时只需要nodejs &gt;= 6, 给大家10分钟安装.
 
-
-
 ### 需要知道的几个概念
 
-npm/cnpm/package.json
+npm
 
+cnpm
 
+package.json
 
 webpack
 
+git
 
-
-git/github
-
-
-
-
-
-
+github
 

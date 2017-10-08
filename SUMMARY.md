@@ -73,4 +73,5 @@
   * [组件的高级特性](zu-jian-de-gao-ji-te-xing.md)
   * 如何移动组件都挂载点外
   * 如何使用github和gitbook
+* [补充, 常见报错解析](bu-51452c-chang-jian-bao-cuo-jie-xi.md)
 

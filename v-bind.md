@@ -10,7 +10,7 @@
 
 ```vue
 <p :align="'center'"></p>
-// 等同于
+// 等同于:
 // <p v-bind:align="'center'"></p>
 ```
 

@@ -19,12 +19,17 @@
 * [第三步, 编写可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
   * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
   * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)
-* [第六步, 动画](di-wu-6b652c-dong-hua.md)
+* [第四步, 动画](di-wu-6b652c-dong-hua.md)
   * 触发条件
-* [第四步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
+* [第五步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
+  * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
-* [第五步, 路由-vue-router](lu-you.md)
-* [第七步, 状态管理-vuex](di-liu-6b652c-zhuang-tai-guan-li.md)
-* [第八步, 单元测试 - karma](di-ba-6b652c-dan-yuan-ce-shi-karma.md)
-* [第九步, 单元测试](di-jiu-6b652c-dan-yuan-ce-shi.md)
+* [第六步, 路由 - vue-router](lu-you.md)
+* [第七步, 状态管理 - vuex](di-liu-6b652c-zhuang-tai-guan-li.md)
+  * 为什么要单独管理组件件的数据?
+* [第八步, vdom和render函数](di-jiu-6b652c-dan-yuan-ce-shi.md)
+  * [vdom](di-jiu-6b652c-dan-yuan-ce-shi/vdom.md)
+  * [render函数](di-jiu-6b652c-dan-yuan-ce-shi/renderhan-shu.md)
+* [第九步, 单元测试 - karma](di-ba-6b652c-dan-yuan-ce-shi-karma.md)
+* [第十步, 服务端渲染](fu-wu-duan-xuan-ran.md)
 

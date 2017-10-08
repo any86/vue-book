@@ -74,4 +74,5 @@
   * [编写插件的固定格式](gu-ding-ge-shi.md)
   * [组件的高级特性](zu-jian-de-gao-ji-te-xing.md)
   * 如何移动组件都挂载点外
+  * 如何使用github和gitbook
 

@@ -40,7 +40,6 @@
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
   * $nextTick
-* [写一个zoom动画](di-wu-6b652c-dong-hua/xie-yi-ge-zoom-dong-hua.md)
 * [第六步, 路由 - vue-router](lu-you.md)
   * 配置路由
   * router-link组件

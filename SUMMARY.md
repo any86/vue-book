@@ -2,7 +2,7 @@
 
 * [简介下课程内容和意义](README.md)
 * [起步](yin-ru-vue.md)
-* [第一步, 习惯vue](di-yi-6b652c-xi-guan-vue.md)
+* [第一步, 认识vue](di-yi-6b652c-xi-guan-vue.md)
   * 定义数据: data
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)
@@ -13,6 +13,8 @@
   * [事件处理: methods](shi-jian-chu-li.md)
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
-* [实例生命周期](shi-li-sheng-ming-zhou-qi.md)
-* 路由
+  * [实例生命周期](shi-li-sheng-ming-zhou-qi.md)
+* [第二步, 了解组件](di-er-6b652c-bian-xie-zu-jian.md)
+* [第三步, 编写可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
+* [第四步, spa与路由](lu-you.md)
 

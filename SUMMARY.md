@@ -25,12 +25,18 @@
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
 * [第六步, 路由 - vue-router](lu-you.md)
+  * 配置路由
   * router-link组件
   * router-view组件
   * 简单示例
   * [路由加载组件](lu-you/lu-you-jia-zai-zu-jian.md)
     * 同步加载
     * 异步加载
+  * [组件中读取/设置路由](lu-you/zu-jian-zhong-du-53d6-she-zhi-lu-you.md)
+    * 读取: $route
+    * 设置: $router
+  * [mode](lu-you/mode.md)
+  * [路由的生命周期对应的钩子函数](lu-you/lu-you-de-sheng-ming-zhou-qi.md)
 * [第七步, 状态管理 - vuex](di-liu-6b652c-zhuang-tai-guan-li.md)
   * 为什么要单独管理组件件的数据?
   * [State](di-liu-6b652c-zhuang-tai-guan-li/state.md)

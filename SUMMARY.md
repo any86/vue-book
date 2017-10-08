@@ -70,6 +70,7 @@
 * [第十步, 用elementUI做一套后台](yong-elementui-zuo-yi-tao-hou-tai.md)
   * [如何使用组件库](yong-elementui-zuo-yi-tao-hou-tai/yin-ru-ele-zu-jian-ku.md)
 * [第十一步, 插件](di-shi-yi-6b652c-cha-jian.md)
-  * 固定格式
+  * [编写插件的固定格式](gu-ding-ge-shi.md)
   * [组件的高级特性](zu-jian-de-gao-ji-te-xing.md)
+  * 如何移动组件都挂载点外
 

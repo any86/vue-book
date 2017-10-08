@@ -2,7 +2,6 @@
 
 * [简介下课程内容和意义](README.md)
 * [起步, 认识vue](yin-ru-vue.md)
-  * [定义数据: data](ding-yi-shu-636e3a-data.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)

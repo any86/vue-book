@@ -15,7 +15,6 @@
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
 * [第二步, 认识组件](di-er-6b652c-bian-xie-zu-jian.md)
-  * [什么是组件?](di-er-6b652c-bian-xie-zu-jian/shi-yao-shi-zu-4ef63f.md)
   * 注册组件
 * [第三步, 可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
   * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)

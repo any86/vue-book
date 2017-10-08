@@ -17,6 +17,10 @@
 * [第二步, 认识组件](di-er-6b652c-bian-xie-zu-jian.md)
   * 注册组件
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)
+  * 替换/覆盖现有的特性
+  * 单项数据流
+  * data必须是函数
+  * [组件上的事件](di-er-6b652c-bian-xie-zu-jian/zu-jian-shang-de-shi-jian.md)
 * [第三步, 可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
   * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
   * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)

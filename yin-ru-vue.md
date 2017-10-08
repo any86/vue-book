@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="app">
-        <p>{{text}}</p>
+        <p v-on:click="xxx">{{text}}</p>
     </div>
 </body>
 </html>
@@ -30,7 +30,7 @@ new Vue({
     data: {
         text: 'hello world'
     }, // 自定义变量, 都放在data对象下面
-    
+
     methods: {
         xxx: function(){
             this.text = 'hello china'

@@ -1,8 +1,7 @@
 # Summary
 
 * [简介下课程内容和意义](README.md)
-* [起步](yin-ru-vue.md)
-* [第一步, 认识vue](di-yi-6b652c-xi-guan-vue.md)
+* [起步, 认识vue](yin-ru-vue.md)
   * [定义数据: data](ding-yi-shu-636e3a-data.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)

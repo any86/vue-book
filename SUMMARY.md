@@ -17,4 +17,5 @@
 * [第二步, 了解组件](di-er-6b652c-bian-xie-zu-jian.md)
 * [第三步, 编写可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
 * [第四步, spa与路由](lu-you.md)
+* [第五步, 动画](di-wu-6b652c-dong-hua.md)
 

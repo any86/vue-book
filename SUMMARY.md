@@ -31,7 +31,10 @@
   * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
   * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)
 * [第四步, 动画](di-wu-6b652c-dong-hua.md)
-  * 触发条件
+  * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
+  * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
+  * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
+  * [写一个zoom动画](di-wu-6b652c-dong-hua/xie-yi-ge-zoom-dong-hua.md)
 * [第五步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)

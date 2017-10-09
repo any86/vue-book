@@ -26,8 +26,10 @@ new Vue({
 1. 全局安装cnpm
 
 ```
-npm i cnpm -g 
+npm i cnpm -g
 ```
 
 2
+
+官方地址: https://github.com/vuejs/vue-devtools
 

@@ -8,11 +8,10 @@
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)
   * 表单输入绑定
-  * [自定义指令](zi-ding-yi-zhi-ling.md)
   * [事件处理: methods](shi-jian-chu-li.md)
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
-  * [测试: 做个todo-list](ce-8bd53a-zuo-ge-todo-list.md)
+  * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
 * [第二步, 认识组件](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)
@@ -69,6 +68,7 @@
 * [第九步, 单元测试 - karma](di-ba-6b652c-dan-yuan-ce-shi-karma.md)
 * [第十步, 用elementUI做一套后台](yong-elementui-zuo-yi-tao-hou-tai.md)
   * [如何使用组件库](yong-elementui-zuo-yi-tao-hou-tai/yin-ru-ele-zu-jian-ku.md)
+* [自定义指令](zi-ding-yi-zhi-ling.md)
 * [第十一步, 插件](di-shi-yi-6b652c-cha-jian.md)
   * [编写插件的固定格式](gu-ding-ge-shi.md)
   * [组件的高级特性](zu-jian-de-gao-ji-te-xing.md)

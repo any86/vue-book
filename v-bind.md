@@ -64,3 +64,7 @@ new Vue({
 
 
 
+### 测验
+
+用:style和:class分别做一个红色背景高度宽度为100px的div
+

@@ -7,11 +7,7 @@
 ### 需要的准备的环境
 
 1. [nodejs](https://nodejs.org/en/)
-2. 在node命令行下运行如下命令安装cnpm:
-
-   ```
-   npm i cnpm --g
-   ```
+2. cnpm :  npm i cnpm --g
 
 3. [git](https://git-scm.com/downloads)
 

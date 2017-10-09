@@ -6,17 +6,18 @@
 
 ### 需要的准备的环境
 
-nodejs &gt;= 6/cnpm/sourceTree/git, 给大家20分钟安装.
+1. [nodejs &gt;= 6](https://nodejs.org/en/)
+2. 在node命令行下运行如下命令安装cnpm:
 
-在node命令行下运行如下命令安装cnpm:
+   ```
+   npm i cnpm --g
+   ```
 
-```
-npm i cnpm --g
-```
+3. [git](https://git-scm.com/downloads)
 
+4. [sourceTree](https://www.sourcetreeapp.com/)
 
-
-### 初期需要知道的几个概念
+初期需要知道的几个概念
 
 npm
 

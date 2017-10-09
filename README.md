@@ -8,8 +8,6 @@
 
 nodejs &gt;= 6/cnpm/sourceTree/git, 给大家20分钟安装.
 
-
-
 ### 初期需要知道的几个概念
 
 npm

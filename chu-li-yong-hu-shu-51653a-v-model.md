@@ -8,8 +8,10 @@ new Vue({
     }
 });
 
-<p>{{value}}</p>
-<input v-model="value"/>
+<div id="app">
+  <p>{{value}}</p>
+  <input v-model="value" />
+</div>
 ```
 
 ```

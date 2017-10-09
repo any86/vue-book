@@ -6,7 +6,7 @@
 
 ### 需要的准备的环境
 
-1. [nodejs &gt;= 6](https://nodejs.org/en/)
+1. [nodejs](https://nodejs.org/en/)
 2. 在node命令行下运行如下命令安装cnpm:
 
    ```

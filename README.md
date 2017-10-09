@@ -8,6 +8,12 @@
 
 nodejs &gt;= 6/cnpm/sourceTree/git, 给大家20分钟安装.
 
+在node命令行下运行如下命令安装cnpm:
+
+```
+npm i cnpm --g
+```
+
 
 
 ### 初期需要知道的几个概念

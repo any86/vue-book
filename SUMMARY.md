@@ -12,7 +12,7 @@
   * [事件处理: methods](shi-jian-chu-li.md)
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
-  * 测试: 做个todolist
+  * [测试: 做个todo-list](ce-8bd53a-zuo-ge-todo-list.md)
 * [第二步, 认识组件](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)

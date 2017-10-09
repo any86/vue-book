@@ -60,5 +60,7 @@ new Vue({
 <p v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></p>
 ```
 
+**注意: **当 v-bind:style 使用需要添加浏览器引擎前缀的 CSS 属性时，如 transform，Vue.js 会自动侦测并添加相应的前缀。
+
 
 

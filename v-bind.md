@@ -13,17 +13,18 @@ new Vue({
 <input :value="value"> // <input value="123">
 ```
 
-现在可以这样:
+### 简写
 
 "v-bind"可简写为":" , 比如
 
 ```vue
 <p :align="'center'"></p>
-// 等同于:
-// <p v-bind:align="'center'"></p>
+// 等同于: <p v-bind:align="'center'"></p>
 ```
 
 ### Class 与 Style 绑定
+
+这里对于class和style的绑定比较特殊, 所以单独拿出进行讲解.
 
 
 

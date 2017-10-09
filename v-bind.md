@@ -13,7 +13,7 @@ new Vue({
 <input :value="value"> // <input value="123">
 ```
 
-### 简写
+### v-bind的简写
 
 "v-bind"可简写为":" , 比如
 

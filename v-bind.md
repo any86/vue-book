@@ -26,7 +26,7 @@ new Vue({
 
 这里对于class和style的绑定比较特殊, 所以单独拿出进行讲解.
 
-**class**后可赋值**对象**, 对象的键为class名, 值为Boolean, 为true对应的class才生效,  比如:
+**v-bind:class**后可赋值**对象**, 对象的键为class名, 值为Boolean, 为true对应的class才生效,  比如:
 
 ```
 new Vue({
@@ -37,7 +37,14 @@ new Vue({
 });
 
 
-<p v-bind:class="{btn: hasButton, btn-primary: hasButton, btn-disabled: !hasButton}"></p>
+<p v-bind:class="{btn: hasButton, 'btn-primary': hasButton, 'btn-disabled': !hasButton}"></p>
+// <p class="btn btn-primary"></p>
+```
+
+**v-bind:class**后还可赋值**数组, **数组的值为class名, 比如:
+
+```
+<p v-bind:class="['btn', 'btn-primary', 'btn-disabled']"></p>
 // <p class="btn btn-primary"></p>
 ```
 

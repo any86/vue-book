@@ -37,8 +37,6 @@ new Vue({
            hasButton: true
        }
    });
-
-
    <p v-bind:class="{btn: hasButton, 'btn-primary': hasButton, 'btn-disabled': !hasButton}"></p>
    // <p class="btn btn-primary"></p>
    ```

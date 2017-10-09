@@ -8,7 +8,8 @@ new Vue({
     data:{
         value: 123
     }
-})
+});
+
 <input :value="value"> // <input value="123">
 ```
 

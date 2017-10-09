@@ -23,6 +23,9 @@ new Vue({
 
 还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**Clone this repo
 
+1. 克隆https://github.com/vuejs/vue-devtools.git
+2. 在nodejs命令行下
+
 1. `npm install`
    \(Or
    `yarn install`

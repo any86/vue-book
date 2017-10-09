@@ -1,4 +1,4 @@
-### 一个神奇的调试工具
+### 运行个神奇的调试工具
 
 在开始vue课程之前, 先给大家介绍一个开发帮手vue-devtools, 有了他在调试过程中可以省去打**console.log**, 因为他会自动把我们在data上定义的数据动态的显示出来\(数据变, 他也变\).
 
@@ -23,18 +23,16 @@ new Vue({
 
 还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**Clone this repo
 
-1. 克隆https://github.com/vuejs/vue-devtools.git
-2. 在nodejs命令行下
+1. 克隆[https://github.com/vuejs/vue-devtools.git](https://github.com/vuejs/vue-devtools.git)
+2. 在nodejs命令行下运行cnpm i
 
-1. `npm install`
-   \(Or
-   `yarn install`
-   if you are using yarn as the package manager\)
-2. `npm run build`
-3. Open Chrome extension page
-4. Check "developer mode"
-5. Click "load unpacked extension", and choose
-   `shells/chrome`
+3. 安装完成后, 运行npm run build
+
+4. 打开谷歌浏览器的"扩展程序"菜单
+
+5. 勾选打开"开发者模式"
+
+6. 点击"加载已解压的扩展程序", 选择**shells/chrome**目录  
 
 官方地址: [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 

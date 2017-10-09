@@ -21,15 +21,17 @@ new Vue({
 
 ### 安装
 
-还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**
+还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**Clone this repo
 
-1. 全局安装cnpm
+1. `npm install`
+   \(Or
+   `yarn install`
+   if you are using yarn as the package manager\)
+2. `npm run build`
+3. Open Chrome extension page
+4. Check "developer mode"
+5. Click "load unpacked extension", and choose
+   `shells/chrome`
 
-```
-npm i cnpm -g
-```
-
-2
-
-官方地址: https://github.com/vuejs/vue-devtools
+官方地址: [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 

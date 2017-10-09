@@ -6,7 +6,9 @@
 
 ### 需要的准备的环境
 
-nodejs &gt;= 6/sourceTree/git, 给大家20分钟安装.
+nodejs &gt;= 6/cnpm/sourceTree/git, 给大家20分钟安装.
+
+
 
 ### 初期需要知道的几个概念
 

@@ -15,7 +15,7 @@ new Vue({
 
 ### v-bind的简写
 
-"v-bind"可简写为":" , 比如
+"v-bind"可简写为"**:**" , 比如
 
 ```vue
 <p :align="'center'"></p>

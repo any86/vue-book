@@ -50,15 +50,5 @@ new Vue({
    // <p class="btn btn-primary"></p>
    ```
 
-2. 
-
-
-
-#### 
-
-
-
-### v-bind:style=
-
 
 

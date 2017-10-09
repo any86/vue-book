@@ -14,5 +14,7 @@
 // <p v-bind:align="'center'"></p>
 ```
 
+### Class 与 Style 绑定
+
 
 

@@ -26,9 +26,7 @@ v-if 是**惰性的**：如果在初始渲染时条件为假，则什么也不�
 
 ### :key
 
-当遇到v-if/v-else的时候, 如果2个所在html标签相同, 决策元素是同时渲染2个相同的html元素, 还是复用, 此特性不常用,  可使用的时候翻阅[官方文档](https://cn.vuejs.org/v2/guide/conditional.html#用-key-管理可复用的元素)说明.
-
-
+当遇到v-if/v-else的时候, 如果2个所在html标签相同, 决策元素是同时渲染2个相同的html元素, 还是复用, 此特性不常用,  可使用的时候翻阅[官方文档](https://cn.vuejs.org/v2/guide/conditional.html#用-key-管理可复用的元素)说明. 而且:key在vdom渲染逻辑中也是一种唯一标记, 可理解为元素/组件的唯一id.
 
 
 

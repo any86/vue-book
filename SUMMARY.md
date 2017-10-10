@@ -11,6 +11,12 @@
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
   * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
+* [第四步, 动画](di-wu-6b652c-dong-hua.md)
+  * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
+  * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
+  * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
+  * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
+  * 写一个基于keyframes的动画效果
 * [第二步, 认识组件](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)
@@ -24,22 +30,16 @@
   * [插槽: slot](di-er-6b652c-bian-xie-zu-jian/cha-cao-slot.md)
   * [组件索引: $refs](di-er-6b652c-bian-xie-zu-jian/zu-jian-suo-5f153a-ref.md)
   * 静态低开销组件v-once
-* [第三步, 可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
-  * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
-  * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)
-  * 测试: 写个modal组件
-* [第四步, 动画](di-wu-6b652c-dong-hua.md)
-  * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
-  * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
-  * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
-  * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
-  * 写一个基于keyframes的动画效果
 * [第五步, 用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)
   * [认识npm](renshi-npm.md)
   * [安装vue-cli](an-zhuang-vue-cli.md)
   * $nextTick
   * [用axios.js代替$.ajax](ajaxaxiosjs.md)
+* [第三步, 可复用组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian.md)
+  * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
+  * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)
+  * 测试: 写个modal组件
 * [第六步, 路由 - vue-router](lu-you.md)
   * 配置路由
   * router-link组件

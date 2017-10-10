@@ -6,5 +6,15 @@ v-if 是**惰性的**：如果在初始渲染时条件为假，则什么也不�
 
 
 
+### v-else
+
+和普通的if/else组合一样, 注意顺序即可, 即v-else前必须由一个v-if:
+
+```
+<p v-if="isChinese">中文</p>
+<p v-else>英文</p>
+// 如果isChinese == false, 那么页面上将什么都不显示
+```
+
 
 

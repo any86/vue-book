@@ -12,6 +12,7 @@
     * 方法事件处理器
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
+  * [操作数据](cao-zuo-shu-ju.md)
 * [第四步, 动画](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)

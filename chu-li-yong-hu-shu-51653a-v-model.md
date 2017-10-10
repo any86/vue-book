@@ -10,3 +10,7 @@
 
 [更多例子](https://cn.vuejs.org/v2/guide/forms.html)
 
+### 测验
+
+用input和textarea同时"双向绑定"同一个数值, 同时通过这个数值来控制一个div的高度.
+

@@ -4,12 +4,12 @@
 * [起步, 认识vue](yin-ru-vue.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)
-  * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)
   * [事件处理: methods](shi-jian-chu-li.md)
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
+  * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
 * [第四步, 动画](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)

@@ -31,8 +31,8 @@ var example1 = new Vue({
 
 // 结果是:
 // <ul id="example-1">
-// <li>Foo</li>
-// <li>Bar</li>
+//     <li>Foo</li>
+//     <li>Bar</li>
 // </ul>
 ```
 

@@ -43,5 +43,20 @@ v-if 是**惰性的**：如果在初始渲染时条件为假，则什么也不�
 
 ### &lt;template&gt;
 
+为了更灵活的使用v-if, 我们可以使用&lt;template&gt;进行对多个元素的统一管理:
+
+```
+<template v-if="isChinese">
+    <p>简体中文</p>
+    <p>繁体中文</p>
+</template>
+<p v-else>其他语种</p>
+
+// 如果isChinese == true
+// <p>简体中文</p>
+// <p>繁体中文</p>
+// 否则只显示 <p>其他语种</p>
+```
+
 
 

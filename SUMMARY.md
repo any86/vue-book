@@ -10,10 +10,9 @@
   * [事件处理: methods](shi-jian-chu-li.md)
     * [监听事件](shi-jian-chu-li/jian-ting-shi-jian.md)
     * 方法事件处理器
+  * [操作数据](cao-zuo-shu-ju.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
-  * [操作数据](cao-zuo-shu-ju.md)
-  * [scss](scss.md)
 * [动画](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
@@ -38,6 +37,7 @@
   * [异步组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/yi-bu-zu-jian.md)
   * [可递归组件](di-san-6b652c-bian-xie-ke-fu-yong-zu-jian/ke-di-gui-zu-jian.md)
   * 测试: 写个modal组件
+* [scss](scss.md)
 * [自定义指令](zi-ding-yi-zhi-ling.md)
 * [用vue做一个spa页面](zuo-yi-ge-spa-ye-mian.md)
   * [这是个贯穿课程始终的项目](zhe-shi-ge-guan-chuan-shi-zhong-de-spa-xiang-mu.md)

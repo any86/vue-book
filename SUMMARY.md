@@ -19,6 +19,7 @@
   * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
   * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
   * 写一个基于keyframes的动画效果
+  * 测验: 给todo-list加动画
 * [认识组件](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)

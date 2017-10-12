@@ -52,8 +52,8 @@ var example1 = new Vue({
 
 ```
 <ul id="example-2">
-  <li v-for="item in items">
-    {{ item.message }}
+  <li v-for="(item, key, index) in items">
+    {{ key }} : {{index}} : {{item}}
   </li>
 </ul>
 ```
@@ -75,5 +75,5 @@ var example2 = new Vue({
 // 这个顺序会因浏览器不同而不同
 ```
 
-
+这里特必要注意key, 他代表的是对象当前的键值 
 

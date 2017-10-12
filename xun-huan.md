@@ -36,5 +36,17 @@ var example1 = new Vue({
 // </ul>
 ```
 
+对于数组, 每次循环还可以获取数组的**索引**:
+
+```
+<ul id="example-1">
+  <li v-for="(item, index) in items">
+    {{ item.message }}
+  </li>
+</ul>
+// 0
+// 1
+```
+
 
 

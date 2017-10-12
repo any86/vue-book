@@ -8,7 +8,7 @@
 
 用指令**v-for**来处理循环,  items是循环体, 循环体的数据类型可以是Array/Object/Number, item是每次循环的存储当前项的临时变量.
 
-#### 循环数组的例子
+#### 循环数组
 
 ```
 <ul id="example-1">
@@ -46,6 +46,33 @@ var example1 = new Vue({
 </ul>
 // 0
 // 1
+```
+
+#### 循环对象
+
+```
+<ul id="example-2">
+  <li v-for="item in items">
+    {{ item.message }}
+  </li>
+</ul>
+```
+
+```
+var example2 = new Vue({
+  el: '#example-2',
+  data: {
+       message1: 'Foo' ,
+       message2: 'Bar'
+  }
+});
+
+// 结果是: 
+// <ul id="example-2">
+//     <li>Foo</li>
+//     <li>Bar</li>
+// </ul>
+// 这个顺序不同浏览器不同
 ```
 
 

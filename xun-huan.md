@@ -72,7 +72,7 @@ var example2 = new Vue({
 //     <li>Foo</li>
 //     <li>Bar</li>
 // </ul>
-// 这个顺序不同浏览器不同
+// 这个顺序会因浏览器不同而不同
 ```
 
 

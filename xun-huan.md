@@ -101,3 +101,7 @@ var example2 = new Vue({
 
 
 
+### 配合v-if
+
+
+

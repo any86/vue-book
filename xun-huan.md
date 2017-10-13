@@ -95,6 +95,8 @@ var example2 = new Vue({
 
 所以强烈建议给循环的每个元素都要key, 除非你十分需要这个部分复用带来的性能, 一般开发中很少遇到非要复用的情况.
 
+**注意: **vue2.20版本后:key在v-for循环时变成了必填属性.
+
 ```
 <span v-for="n in 10" :key="n">{{ n }} </span>
 ```
@@ -110,8 +112,6 @@ var example2 = new Vue({
 //<div>3</div>
 //<div>4</div>
 ```
-
-
 
 
 

@@ -105,7 +105,13 @@ var example2 = new Vue({
 
 ```
 <div v-if="n < 5" v-for="n in 10">{{n}}</div>
+//<div>1</div>
+//<div>2</div>
+//<div>3</div>
+//<div>4</div>
 ```
+
+
 
 
 

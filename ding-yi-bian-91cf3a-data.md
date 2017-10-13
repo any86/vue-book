@@ -6,14 +6,14 @@
 new Vue({
     el: '#app',
     data: {
-        message: 'hello'
+        message: 'hello world'
     },
     methods: {
         say: function(){
             alert(message);
         }
     }
-    
+
 });
 ```
 

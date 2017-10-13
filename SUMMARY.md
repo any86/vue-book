@@ -3,7 +3,7 @@
 * [简介下课程内容和意义](README.md)
 * [起步, 认识vue](yin-ru-vue.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
-  * [定义变量: data](ding-yi-bian-91cf3a-data.md)
+  * [定义变量/方法: data/methods](ding-yi-bian-91cf3a-data.md)
   * [数据绑定: v-bind](v-bind.md)
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)

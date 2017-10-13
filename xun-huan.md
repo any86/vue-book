@@ -99,9 +99,13 @@ var example2 = new Vue({
 <span v-for="n in 10" :key="n">{{ n }} </span>
 ```
 
-
-
 ### 配合v-if
+
+某些场合我们需要过滤功能:
+
+```
+<div v-if="n < 5" v-for="n in 10">{{n}}</div>
+```
 
 
 

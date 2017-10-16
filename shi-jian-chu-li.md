@@ -27,7 +27,7 @@ new Vue({
 
 ### $event
 
+代表绑定事件元素的event对象.
+
 注意这只是原生html标签是上$event才表示event, 如果是自定义组件是不同的.
-
-
 

@@ -4,7 +4,25 @@
 <div v-on:click="fn"></div>
 ```
 
-v-on后加':'加事件名来给元素绑定事件, 这里的'click'可以是任何js原生支持的事件.
+v-on后加':'加事件名来给元素绑定事件, 这里的'click'可以是任何js原生支持的事件, '='后面跟着对应的方法名.
+
+### 定义方法
+
+vue中所有的方法都定义在methods下,
+
+```
+new Vue({
+    el: '#app',
+    data: {
+        count: 0
+    },
+    methods: {
+        fn: function(){
+            
+        }
+    }
+});
+```
 
 ### 简写
 

@@ -126,5 +126,14 @@ new Vue({
 
 全部的修饰符: .left/.right/.middle
 
+### 修饰键\(鼠标+键盘\)
+
+```
+<!-- Alt + C -->
+<input @keyup.alt.67="clear">
+<!-- Ctrl + Click -->
+<div @click.ctrl="doSomething">Do something</div>
+```
+
 
 

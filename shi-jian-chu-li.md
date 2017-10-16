@@ -18,7 +18,7 @@ new Vue({
     },
     methods: {
         fn: function(){
-            
+            this.count++;
         }
     }
 });

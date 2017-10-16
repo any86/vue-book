@@ -135,5 +135,5 @@ new Vue({
 <div @click.ctrl="doSomething">Do something</div>
 ```
 
-由于不常用, 关于mac和windows下的区别, 有兴趣的同学可自己翻看[文档](https://cn.vuejs.org/v2/guide/events.html#修饰键)
+关于mac和windows下的区别, 由于不常用, 不在此展开介绍, 有兴趣的同学可自己翻看[文档](https://cn.vuejs.org/v2/guide/events.html#修饰键)
 

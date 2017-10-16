@@ -47,7 +47,7 @@ new Vue({
 
 ### 定义数据
 
-看上例可知, 我们要定义的变量都要写在data中,  比如定义一个text变量, 这个'text'可以是 'text: \[1,2\]', 也可以是'text': {a: 1, b: 1}.
+看上例可知, 我们要定义的变量都要写在data中,  比如定义一个text变量, 这个'text'的值可以是任意数据类型, 比如Object/Array/Number/String/Map/Set等等
 
 ### 定义方法
 

@@ -57,8 +57,6 @@ new Vue({
 
 注意这只是原生html标签是上$event才表示event, 如果是自定义组件是不同的.
 
-
-
 ### 事件修饰符
 
 简单的说就是可以在模板中是用v-on的时候, 通过在"v-on"后加".xxx", 实现**event.preventDefault\(\) **或 **event.stopPropagation\(\)等常见操作.**
@@ -91,7 +89,7 @@ new Vue({
 
 .capture: 翻转事件传播方向, 本来事件是按照最内元素到外元素执行的, 叫事件冒泡,capture正好相反, 让元素从外到内传播事件.
 
-.self
+.self 元素只在绑定的元素上执行
 
-.once
+.once: 绑定的事件只执行一次, 之后失效.
 

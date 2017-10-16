@@ -106,12 +106,14 @@ var example2 = new Vue({
 某些场合我们需要过滤功能:
 
 ```
-<div v-if="n < 5" v-for="n in 10">{{n}}</div>
+<div v-if="n < 3" v-for="n in 5">{{n}}</div>
+<div v-else>{{100 + n}}</div>
 //<div>1</div>
 //<div>2</div>
-//<div>3</div>
-//<div>4</div>
+//<div>103</div>
+//<div>104</div>
+//<div>105</div>
 ```
 
-
+**注意**循环数字, 循环的第一项是1不是0.
 

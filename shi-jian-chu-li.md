@@ -57,3 +57,41 @@ new Vue({
 
 注意这只是原生html标签是上$event才表示event, 如果是自定义组件是不同的.
 
+
+
+### 事件修饰符
+
+简单的说就是可以在模板中是用v-on的时候, 通过在"v-on"后加".xxx", 实现**event.preventDefault\(\) **或 **event.stopPropagation\(\)等常见操作.**
+
+```
+<!-- 阻止单击事件冒泡 -->
+<a v-on:click.stop="doThis"></a>
+
+<!-- 提交事件不再重载页面 -->
+<form v-on:submit.prevent="onSubmit"></form>
+
+<!-- 修饰符可以串联 -->
+<a v-on:click.stop.prevent="doThat"></a>
+
+<!-- 只有修饰符 -->
+<form v-on:submit.prevent></form>
+
+<!-- 添加事件侦听器时使用事件捕获模式 -->
+<div v-on:click.capture="doThis">...</div>
+
+<!-- 只当事件在该元素本身 (比如不是子元素) 触发时触发回调 -->
+<div v-on:click.self="doThat">...</div>
+```
+
+事件修饰符有5个:
+
+.stop: 阻止事件冒泡
+
+.prevent: 阻止浏览器默认行为, 比如页面滚动等.
+
+.capture: 翻转事件传播方向, 本来事件是按照最内元素到外元素执行的, 叫事件冒泡,capture正好相反, 让元素从外到内传播事件.
+
+.self
+
+.once
+

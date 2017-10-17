@@ -11,9 +11,9 @@
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [表单元素事件绑定](biao-dan-yuan-su-shi-jian-bang-ding.md)
   * [计算属性: computed](ji-suan-shu60273a-computed.md)
-  * 观察者: watch
+  * [观察者: watch](guan-cha-80053a-watch.md)
   * [git & sourcetree & github](gitandsourcetree.md)
-  * 表单元素事件绑定
+  * [表单元素事件绑定](biao-dan-yuan-su-shi-jian-bang-ding.md)
 * [动画](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)

@@ -9,8 +9,10 @@
   * [事件处理: methods](shi-jian-chu-li.md)
   * [操作数据](cao-zuo-shu-ju.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
+  * 计算属性: computed
+  * 观察者: watch
   * [git & sourcetree & github](gitandsourcetree.md)
-  * [测验 :  todo-list](ce-8bd53a-zuo-ge-todo-list.md)
+  * [测验: todo-list](ce-9a8c3a-todo-list.md)
 * [动画](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)

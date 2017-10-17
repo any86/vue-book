@@ -59,13 +59,13 @@ Object.defineProperty(obj, 'a', {
     set: function(v){
         alert('设置值: ' + v);
     }
-}, {})
+})
 
-// 读取操作
+// 读操作
 console.log(obj.a)
+// 写操作
+obj.a = 1;
 ```
-
-
 
 ### 定义数据
 

@@ -2,8 +2,6 @@
 
 本章的目的就是让你学完这一章可以独立完成一套支持'增删改查的'表单, 回忆我当初学vue的过程,边学边练效果更佳, 所以每节的最后 我都会带大家做一个小例子来帮助大家强化记忆, 每章的最后我们会做一个大的例子把之前的小例子的知识点串在一起, 比如第一章最后我们会做一个[todo-list](https://jsfiddle.net/yyx990803/4dr2fLb7/?utm_source=website&utm_medium=embed&utm_campaign=4dr2fLb7).
 
-
-
 ### hello world
 
 免不了俗套, 我们也从hello world开始, 我们总共要做**2**步
@@ -47,6 +45,9 @@ new Vue({
 
 运行页面我们会看到'hello world'.
 
+### {{}}
+
+### 
 
 ### 数据是响应的
 

@@ -6,10 +6,9 @@
 
 
 
-#### 错误示例
+##### 错误示例
 
 ```
-<p>{{map.a}</p>
 <p>{{map.b}</p>
 <button @click="changeMap">改变</button>
 ```

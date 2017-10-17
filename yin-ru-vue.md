@@ -55,6 +55,7 @@ var obj = {};
 Object.defineProperty(obj, 'a', {
     get: function(v){
         alert('读取值: ' + v)
+        return v;
     },
     set: function(v){
         alert('设置值: ' + v);

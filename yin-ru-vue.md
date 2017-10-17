@@ -46,11 +46,9 @@ var vm = new Vue({
 
 我们尝试在谷歌浏览器的控制台输入vm.text = 'hello china', 浏览器显示的内容从'hello world'变成了'hello china', 惊讶吧, 我们并没有操作dom哦, 只是操作了数据, 然后vue帮我们自动改变了dom. 这里在控制台去改数据只是我们还没有学习输入绑定事件, 当我学会绑定事件后, 我们就可以在自定义方法中痛快的操作数据了.
 
-
-
 ### 数据响应的原理
 
-vue内部用了`Object.defineproperty(), `这个api可以定义对象, 但是和我们直接new Object和"var obj = {}"不同, 他可以对定义的对象进行读写操作的回调, 就是这样vue对data上的数据都重新定义并加了回调, 在回调中他会自动操作dom, 这样我们就直接通过数据操作dom.
+vue内部用了`Object.defineproperty(),`这个api可以定义对对象进行读写操作的回调设置, 就是这样vue对data上的数据都重新定义并加了回调, 在回调中他会自动操作dom, 这样我们就直接通过数据操作dom.
 
 ### 定义数据
 

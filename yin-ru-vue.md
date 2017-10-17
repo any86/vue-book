@@ -48,7 +48,9 @@ var vm = new Vue({
 
 
 
+### 数据响应的原理
 
+vue内部用了`Object.defineproperty(), `这个api可以定义对象, 但是和我们直接new Object和"var obj = {}"不同, 他可以对定义的对象进行读写操作的回调, 就是这样vue对data上的数据都重新定义并加了回调, 在回调中他会自动操作dom, 这样我们就直接通过数据操作dom.
 
 ### 定义数据
 

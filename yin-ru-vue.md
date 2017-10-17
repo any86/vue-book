@@ -20,7 +20,6 @@
     <div id="app">
         <p v-on:click="xxx">{{text}}</p>
     </div>
-</body>
 </html>
 ```
 
@@ -45,9 +44,9 @@ new Vue({
 
 运行页面我们会看到'hello world'.
 
-### \{{}}
+### {{}}
 
-### 
+"{{}}"是vue模板插值的编辑符, 通过他把变量插入模板中, 如上面的\{{text}}会被编译变成hello world
 
 ### 数据是响应的
 

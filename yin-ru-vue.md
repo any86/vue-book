@@ -28,7 +28,7 @@
 实例化vue
 
 ```
-new Vue({
+var vm = new Vue({
     el: '#app', // 绑定id为app的元素, 只操作app内的标签
     data: {
         text: 'hello world'
@@ -44,13 +44,13 @@ new Vue({
 
 运行页面我们会看到'hello world'.
 
-### \{{}}
+### {{}}
 
-"\{{}}"是vue模板插值的编辑符, 通过他把变量插入模板中, 如上面的"\{{text}}"会被编译变成hello world
-
-
+"{{}}"是vue模板插值的编辑符, 通过他把变量插入模板中, 如上面的"{{text}}"会被编译变成hello world, 当然vue做的不仅仅是一个模板, 更重要的是插入的**数据是响应的**.
 
 ### 数据是响应的
+
+
 
 这样我们就把我们的**变量**text绑定到了p的内容中\(相当于innerText\), 当变量text变化的时候, p标签的内容会自动变化.\(稍后讲methods会展示\)
 

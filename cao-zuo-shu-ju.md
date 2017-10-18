@@ -1,6 +1,6 @@
 ### 变量在操作前必须在data上定义
 
-还记得之前咱们说过的vue的核心原理**Object.defineproperty\(\)**吗? 第二个参数是键值, 所以如果我们想要vue识别我们操作数据的动作, 那么就必须提前在data上定义变量, 让他提前帮我们做好数据的响应准备.
+还记得之前咱们说过的vue的核心原理**Object.defineproperty\(\)**吗? 第二个参数是键值, 所以如果我们想要vue响应我们的数据操作, 那么就必须提前在data上定义变量, 让他提前帮我们做好数据的响应准备.
 
 **错误:**
 
@@ -41,11 +41,49 @@ new Vue({
 
 现在点击按钮后, 页面显示**数字1**.
 
-### 陷阱
+### 对象\(Object\)
 
-这里说的陷阱其实是在操作数据的时候一个和我们常识不一样的地方,  这里主要涉及2种数据类型的操作: Array/Object. 下面通过例子让大家理解并规避陷阱.
+由于**Object.defineproperty**只能定义get/set**, **也就是说vue对于Object类型的数据是不能响应**删除/添加**操作的, 所以vue在其实例上提供了**$set**方法来对非根\(也就是非data下的第一层\)添加数据,  比如:
 
-### 
+```
+new Vue({
+    el: '#app',
+    data: {
+        map: {
+            a: 1
+        }
+    },
+    methods: {
+        addToMap(){
+            this.map.b = 2; // 错误, vue是不会把数据响应到dom的
+            this.$set(this.map, 'a', 2); // 正确
+        }
+    }
+});
+```
+
+至于**删除**我的建议是结合**v-if**来禁止渲染到页面:
+
+```
+<p v-if="null == map.a">{{map.a}}</p>
+<button @click="removeFromMap">删除</button>
+```
+
+```
+new Vue({
+    el: '#app',
+    data: {
+        map: {
+            a: 1
+        }
+    },
+    methods: {
+        remveFromMap(){
+            this.a = null;
+        }
+    }
+});
+```
 
 ### 数组
 
@@ -83,6 +121,8 @@ new Vue({
 ```
 
 ### 
+
+
 
 
 

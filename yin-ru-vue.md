@@ -44,7 +44,7 @@ var vm = new Vue({
 
 ### 数据是响应的
 
-在谷歌浏览器的控制台输入**vm.text = 'hello china'**,** **浏览器显示的内容从**'hello world'变成了'hello china'**, 惊讶吧, 只是操作了数据, vue帮我们自动改变了dom.  
+在谷歌浏览器的控制台输入**vm.text = 'hello china'**,** **页面内容从**'hello world'变成了'hello china'**, 惊讶吧, 只是操作了数据, vue帮我们自动改变了dom.
 
 ### 数据响应的原理
 

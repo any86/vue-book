@@ -65,7 +65,7 @@ new Vue({
 至于**删除**我的建议是结合**v-if**来禁止渲染到页面:
 
 ```
-<p v-if="null == map.a">{{map.a}}</p>
+<p v-if="null === map.a">{{map.a}}</p>
 <button @click="removeFromMap">删除</button>
 ```
 
@@ -113,8 +113,6 @@ new Vue({
 ```
 
 当我们点了changeMap一定以为页面内容会变成数字2和3, 但其实不会变,
-
-
 
 ```
 

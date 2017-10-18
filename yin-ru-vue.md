@@ -46,6 +46,8 @@ var vm = new Vue({
 
 在谷歌浏览器的控制台输入**vm.text = 'hello china'**,** **页面内容从**'hello world'变成了'hello china'**, 惊讶吧, 只是操作了数据, vue帮我们自动改变了dom.
 
+说明: Vue实例化的时候回自动把定义在data上的数据映射到实例上, 所以vm.text实际就是data上的text.
+
 ### 数据响应的原理
 
 vue内部用了**Object.defineproperty\(\)**,这个api可以定义对对象进行读写操作的回调设置, 就是这样vue对data上的数据都重新定义并加了回调, 在回调中他会自动操作dom, 这样我们就直接通过数据操作dom.**Object.defineProperty**的第1个参数是要定义的对象, 第2个是要定义的键值, 第3个是对对象键值属性的设置, 比如get/set. 下面用**Object.defineProperty**写了个小例子, 大家体会下.

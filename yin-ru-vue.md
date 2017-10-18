@@ -113,7 +113,7 @@ v-on在vue中叫做系统指令, 指令都是以v-开头, 他代表系统封装�
 
 ### 组件
 
-vue最大的亮点不是模板功能, 而是组件, 让我们把一系列的js/html/css分装成一个html标签 , 展示一下封装好的组件代码和[运行效果](https://cn.vuejs.org/v2/examples/modal.html).
+vue最大的亮点不是模板功能, 而是组件, 让我们把一系列的js/html/css分装成一个html标签 , 展示一下封装好的组件代码和[运行效果](https://cn.vuejs.org/v2/examples/modal.html).现在只是提前给大家介绍组件的概念, 组件其实是vue最核心的功能, 所以后续我们会大篇幅进行详细讲解.
 
 ### 测验
 

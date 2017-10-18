@@ -14,14 +14,14 @@
   * [观察者: watch](guan-cha-80053a-watch.md)
   * [git & sourcetree & github](gitandsourcetree.md)
   * [表单元素事件绑定](biao-dan-yuan-su-shi-jian-bang-ding.md)
-* [动画](di-wu-6b652c-dong-hua.md)
+* [动画: animate](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
   * [动画生命周期与钩子函数](di-wu-6b652c-dong-hua/dong-hua-sheng-ming-zhou-qi-yu-gou-zi-han-shu.md)
   * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
   * 写一个基于keyframes的动画效果
   * 测验: 给todo-list加动画
-* [认识组件](di-er-6b652c-bian-xie-zu-jian.md)
+* [组件: component](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)
   * 替换/覆盖现有的特性

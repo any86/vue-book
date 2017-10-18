@@ -10,7 +10,6 @@
   * [操作数据注意事项](cao-zuo-shu-ju.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [表单元素事件绑定](biao-dan-yuan-su-shi-jian-bang-ding.md)
-  * [计算属性: computed](ji-suan-shu60273a-computed.md)
   * [观察者: watch](guan-cha-80053a-watch.md)
   * [git & sourcetree & github](gitandsourcetree.md)
 * [动画: animate](di-wu-6b652c-dong-hua.md)
@@ -20,6 +19,7 @@
   * [动画切换顺序: mode\(in-out/out-in\)](di-wu-6b652c-dong-hua/dong-hua-qiehuan-shun-5e8f3a-mode-in-out-out-in.md)
   * 写一个基于keyframes的动画效果
   * 测验: 给todo-list加动画
+* [计算属性: computed](ji-suan-shu60273a-computed.md)
 * [组件: component](di-er-6b652c-bian-xie-zu-jian.md)
   * [注册组件](di-er-6b652c-bian-xie-zu-jian/zhu-ce-zu-jian.md)
   * [props](di-er-6b652c-bian-xie-zu-jian/props.md)

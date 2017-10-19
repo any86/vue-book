@@ -91,15 +91,12 @@ new Vue({
 
 这些方法包括: **push**\(\) / **pop**\(\) / **shift**\(\) / **unshift**\(\) / **splice**\(\) / **sort**\(\) / **reverse**\(\)
 
-**模板**
+这里有一个特别要注意的操作就是, vue不能检测到**通过索引设置值**的这个动作, 看下面的**错误**的例子: 
 
 ```
 <p v-for="item in list" :key="item">{{item}}</p>
-<button @click="change">换数组</button>
 <button @click="edit">让第一个元素等于100</button>
 ```
-
-**错误:**
 
 ```
 new Vue({
@@ -109,20 +106,28 @@ new Vue({
     },
 
     methods: {
-        change: function(){
-            this.list = [4,5,6];
-        },
-
         edit: function(){
-            this.list[0] = 100;
+            this.list[0] = 100; // 错误, 不会生效
         }
     }
 });
 ```
 
-当我们点了changeMap一定以为页面内容会变成数字2和3, 但其实不会变,
+当我们点了按钮一定以为页面会出现数字100,2, 3, 但实际页面是不会有变化的, 就想上面解释的, vue不能检测到**通过索引设置值**的这个动作, 所以**正确**的方式是:
 
 ```
+new Vue({
+    el: '#app',
+    data: {
+        list: [1, 2, 3]
+    },
+
+    methods: {
+        edit: function(){
+            this.list.splice(0, 1, 100);
+        }
+    }
+});
 
 ```
 

@@ -118,11 +118,11 @@ new Vue({
 ```vue
 new Vue({
     el: '#app',
-    
+
     data: {
         list: [1, 2, 3]
     },
-    
+
     methods: {
         edit: function(){
             this.list.splice(0, 1, 100);
@@ -131,7 +131,7 @@ new Vue({
 });
 ```
 
-### 
+### 测验
 
-
+把上面的例子做一遍.
 

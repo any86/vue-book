@@ -95,13 +95,10 @@ new Vue({
 
 ```
 <p>{{map.b}</p>
-```
-
-```
 <button @click="changeMap">改变</button>
 ```
 
-##### 错误示例
+**错误:**
 
 ```
 new Vue({

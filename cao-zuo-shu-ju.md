@@ -95,9 +95,8 @@ new Vue({
 
 ```
 <p v-for="item in list" :key="item">{{item}}</p>
-<button @click="add">添加</button>
+<button @click="change">换数组</button>
 <button @click="edit">让第一个元素等于100</button>
-<button @click="remove">删除第2个元素</button>
 ```
 
 **错误:**
@@ -110,12 +109,12 @@ new Vue({
     },
 
     methods: {
-        this.add: function(){
-            this.list[3] = 4;
+        change: function(){
+            this.list = [4,5,6];
         },
-        
-        this.edit: function(){
-            
+
+        edit: function(){
+            this.list[0] = 100;
         }
     }
 });

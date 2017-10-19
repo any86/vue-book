@@ -91,12 +91,17 @@ new Vue({
 
 这些方法包括: **push**\(\) / **pop**\(\) / **shift**\(\) / **unshift**\(\) / **splice**\(\) / **sort**\(\) / **reverse**\(\)
 
-##### 错误示例
+**模板**
 
 ```
 <p>{{map.b}</p>
+```
+
+```
 <button @click="changeMap">改变</button>
 ```
+
+##### 错误示例
 
 ```
 new Vue({

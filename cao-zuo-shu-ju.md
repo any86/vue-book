@@ -91,13 +91,13 @@ new Vue({
 
 这些方法包括: **push**\(\) / **pop**\(\) / **shift**\(\) / **unshift**\(\) / **splice**\(\) / **sort**\(\) / **reverse**\(\)
 
-下面我用数组的修改举个例子: 
-
 **模板**
 
 ```
 <p v-for="item in list" :key="item">{{item}}</p>
-<button @click="add">改变</button>
+<button @click="add">添加</button>
+<button @click="edit">让第一个元素等于100</button>
+<button @click="remove">删除第2个元素</button>
 ```
 
 **错误:**
@@ -110,8 +110,12 @@ new Vue({
     },
 
     methods: {
-        this.add(){
-            this.
+        this.add: function(){
+            this.list[3] = 4;
+        },
+        
+        this.edit: function(){
+            
         }
     }
 });

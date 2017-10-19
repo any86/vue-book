@@ -91,11 +91,13 @@ new Vue({
 
 这些方法包括: **push**\(\) / **pop**\(\) / **shift**\(\) / **unshift**\(\) / **splice**\(\) / **sort**\(\) / **reverse**\(\)
 
+下面我用数组的修改举个例子: 
+
 **模板**
 
 ```
-<p>{{map.b}</p>
-<button @click="changeMap">改变</button>
+<p v-for="item in list" :key="item">{{item}}</p>
+<button @click="add">改变</button>
 ```
 
 **错误:**
@@ -109,7 +111,7 @@ new Vue({
 
     methods: {
         this.add(){
-            this.map = {a:2,b: 3}
+            this.
         }
     }
 });

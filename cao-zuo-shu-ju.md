@@ -87,6 +87,10 @@ new Vue({
 
 ### 数组
 
+由于**Object.defineproperty**只能定义**对象\(Object\)**的get/set**,  **所以对于数组的操作Vue通过改变Array类型数据的**原型\(prototype\)**上的方法来实现数组数据的自动响应.
+
+这些方法包括: **push**\(\) / **pop**\(\) / **shift**\(\) / **unshift**\(\) / **splice**\(\) / **sort**\(\) / **reverse**\(\)
+
 ##### 错误示例
 
 ```
@@ -98,14 +102,11 @@ new Vue({
 new Vue({
     el: '#app',
     data: {
-        map: {
-            a: 1,
-            b: 2
-        }
+        list: [1, 2, 3]
     },
 
     methods: {
-        this.changeMap(){
+        this.add(){
             this.map = {a:2,b: 3}
         }
     }

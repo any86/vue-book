@@ -6,20 +6,20 @@
 new Vue({
     el: '#app',
     data:{
-        value: 123
+        value: 'center'
     }
 });
 
-<input :value="value"> // <input value="123">
+<p :align="value"> // <p align="center">
 ```
 
 ### v-bind的简写
 
-"**v-bind**"可简写为"**:**" , 比如
+"**v-bind**"可简写为"**:**" , 比如上面的例子: 
 
 ```vue
-<p :align="'center'"></p>
-// 等同于: <p v-bind:align="'center'"></p>
+<p :align="value"></p>
+// 等同于: <p v-bind:align="value"></p>
 ```
 
 ### Class 与 Style 绑定
@@ -61,8 +61,6 @@ new Vue({
 ```
 
 **注意: **当 v-bind:style 使用需要添加浏览器引擎前缀的 CSS 属性时，如 transform，Vue.js 会自动侦测并添加相应的前缀。
-
-
 
 ### 测验
 

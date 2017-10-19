@@ -15,38 +15,44 @@ new Vue({
 
 ### v-bind的简写
 
-"**v-bind**"可简写为"**:**" , 比如上面的例子: 
+"**v-bind**"可简写为"**:**" , 比如上面的例子:
 
 ```vue
 <p :align="value"></p>
 // 等同于: <p v-bind:align="value"></p>
 ```
 
-### Class 与 Style 绑定
+### 绑定Class 与 Style 
 
 这里对于class和style的绑定比较特殊, 所以单独拿出进行讲解.
 
-1. **v-bind:class="{}"**, 对象的键为class名, 值为Boolean, 为true对应的class才生效,  比如:
+#### v-bind:class="{}"
 
-   ```
-   new Vue({
-       el: '#app',
-       data:{
-           hasButton: true
-       }
-   });
-   <p v-bind:class="{btn: hasButton, 'btn-primary': hasButton, 'btn-disabled': !hasButton}"></p>
-   // <p class="btn btn-primary"></p>
-   ```
+对象的键为class名, 值为Boolean, 为true对应的class才生效,  比如:
 
-   **v-bind:class="\[\]", **数组的值为class名, 比如:
+```
+new Vue({
+    el: '#app',
+    data:{
+        hasButton: true
+    }
+});
+<p v-bind:class="{btn: hasButton, 'btn-primary': hasButton, 'btn-disabled': !hasButton}"></p>
+// <p class="btn btn-primary"></p>
+```
 
-   ```
-   <p v-bind:class="['btn', 'btn-primary', 'btn-disabled']"></p>
-   // <p class="btn btn-primary"></p>
-   ```
+#### **v-bind:class="\[\]"**
 
-2. ** v-bind:style="{}",  **对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象。CSS 属性名可以用驼峰式 \(camelCase\) 或短横线分隔 \(kebab-case，记得用单引号括起来\) 来命名：
+** **数组的值为class名, 比如:
+
+```
+<p v-bind:class="['btn', 'btn-primary', 'btn-disabled']"></p>
+// <p class="btn btn-primary"></p>
+```
+
+####  v-bind:style="{}"
+
+对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象。CSS 属性名可以用驼峰式 \(camelCase\) 或短横线分隔 \(kebab-case，记得用单引号括起来\) 来命名：
 
 ```
 new Vue({

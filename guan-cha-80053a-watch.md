@@ -15,11 +15,11 @@ new Vue({
             // oldValue是改变前的值
             clearTimeout(timer);
             setTimeout(function(){
-            
-            }, 200);
-            $.get('a.php', {}, function(response){
+                $.get('a.php', {}, function(response){
 
-            });
+                });
+            }, 200);
+
         }
     }
 })

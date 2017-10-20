@@ -18,8 +18,10 @@ new Vue({
 ```
 
 ```
-<p>表达式返回: {{message.split('').reverse().join('')}}</p>
-<p>计算属性返回: {{reverseMessage}}</p>
+<div id="app">
+    <p>表达式返回: {{message.split('').reverse().join('')}}</p>
+    <p>计算属性返回: {{reverseMessage}}</p>
+</div>
 ```
 
 每当**this.message**发生变化, reverseMessage会自动重新计算新值, 绑定计算属性的元素也会响应变化.

@@ -10,7 +10,7 @@ new Vue({
         timer: null
     },
     watch: {
-        text: function(newValue, oldValue){
+        text: function(newValue, oldValue){ // oldValue可选
             // newValue是改变后的值(当前值)
             // oldValue是改变前的值
             clearTimeout(this.timer);
@@ -33,7 +33,20 @@ new Vue({
 
 虽然计算属性在大多数情况下更合适，但有时也需要一个通用的**侦听器, **比如我们相同让数据的变化绑定一个异步操作, 或者在watch内部写一些对引入的第三方库的操作.
 
-### 触发时机
+### deep
 
-watch是当观察的数据改变时候触发, vue初始化的时候不触发,
+当我们观察的字段对应的值是一个对象时候, 如果我们只是改变对象的某这字段的值, 就需要制定deep: true: 
+
+```
+watch: {
+    object: {
+        deep: true,
+        handler: function(newValue, oldValue){
+            
+        }
+    }
+}
+```
+
+
 

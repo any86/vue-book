@@ -15,9 +15,7 @@ new Vue({
             // oldValue是改变前的值
             clearTimeout(timer);
             setTimeout(function(){
-                $.get('a.php', {}, function(response){
-                
-                });
+                $.post('a.php', {text: text});
             }, 200);
 
         }

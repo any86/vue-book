@@ -13,7 +13,7 @@ new Vue({
             return this.message.split('').reverse().join('');
         }
     }
-    
+
 })
 ```
 
@@ -22,5 +22,9 @@ new Vue({
 <p>计算属性返回: {{reverseMessage}}</p>
 ```
 
+每当**this.message**发生变化, reverseMessage会自动重新计算新值, 绑定计算属性的元素也会响应变化.
 
+### 缓存
+
+计算属性是自动缓存的,
 

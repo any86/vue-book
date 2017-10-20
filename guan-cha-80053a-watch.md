@@ -6,14 +6,15 @@
 new Vue({
     el: '#app',
     data: {
-        text: 'hello!'
+        text: 'hello!',
+        timer: null
     },
     watch: {
         text: function(newValue, oldValue){
             // newValue是改变后的值(当前值)
             // oldValue是改变前的值
             $.get('a.php', {}, function(response){
-                
+
             });
         }
     }

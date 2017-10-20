@@ -42,7 +42,7 @@ watch: {
     object: {
         deep: true,
         handler: function(newValue){
-
+            console.dir(newValue);
         }
     }
 }

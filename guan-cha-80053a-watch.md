@@ -35,14 +35,14 @@ new Vue({
 
 ### deep
 
-当我们观察的字段对应的值是一个对象时候, 如果我们只是改变对象的某这字段的值, 就需要制定deep: true: 
+当我们观察的字段对应的值是一个对象时候, 如果我们只是改变对象的某这字段的值, 就需要制定deep: true:
 
 ```
 watch: {
     object: {
         deep: true,
-        handler: function(newValue, oldValue){
-            
+        handler: function(newValue){
+
         }
     }
 }

@@ -16,7 +16,7 @@ new Vue({
             clearTimeout(timer);
             setTimeout(function(){
                 $.get('a.php', {}, function(response){
-
+                    
                 });
             }, 200);
 

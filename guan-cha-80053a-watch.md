@@ -1,6 +1,6 @@
 ### watch是什么?
 
-一个告诉vue帮我们**监听指定字段**的通用方法: 
+一个告诉vue帮我们**监听指定字段**的通用方法:
 
 ```
 new Vue({
@@ -12,7 +12,7 @@ new Vue({
         text: function(newValue, oldValue){
             // newValue是改变后的值(当前值)
             // oldValue是改变前的值
-                       
+            
         }
     }
 })

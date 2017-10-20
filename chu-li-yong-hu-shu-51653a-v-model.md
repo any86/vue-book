@@ -12,7 +12,7 @@
 
 [更多例子](https://cn.vuejs.org/v2/guide/forms.html)
 
-注意: 文档中关于[修饰符](https://cn.vuejs.org/v2/guide/forms.html#修饰符)部分的内容可以不急于掌握, 但是要知道有修饰符这个功能.
+注意: 文档中关于组件v-model部分的内容, 会在后续**组件**的章节进行详细讲解.
 
 ### 测验
 

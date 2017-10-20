@@ -12,6 +12,8 @@
 
 [更多例子](https://cn.vuejs.org/v2/guide/forms.html)
 
+注意: 文档中关于[修饰符](https://cn.vuejs.org/v2/guide/forms.html#修饰符)部分的内容可以不急于掌握, 但是要知道有修饰符这个功能.
+
 ### 测验
 
 用**input**和**textarea**同时"双向绑定"同一个数值, 同时通过这个数值来控制一个div的**高度**, 用**checkbox**来控制其是否有**内边距**, 用**radio**控制其**是否显示, **用**select**控制其**背景色.**

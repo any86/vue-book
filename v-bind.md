@@ -13,6 +13,20 @@ new Vue({
 <p :align="value"> // <p align="center">
 ```
 
+### 绑定表达式
+
+"v-bind和{{}}"还可以绑定js表达式: 
+
+```
+new Vue({
+    el: '#app',
+    data:{
+        value: 1
+    }
+});
+<p :align="1 == value ? 'center' : 'left'"> // <p align="center">
+```
+
 ### v-bind的简写
 
 "**v-bind**"可简写为"**:**" , 比如上面的例子:
@@ -22,7 +36,7 @@ new Vue({
 // 等同于: <p v-bind:align="value"></p>
 ```
 
-### 绑定Class 与 Style 
+### 绑定Class 与 Style
 
 这里对于class和style的绑定比较特殊, 所以单独拿出进行讲解.
 
@@ -50,7 +64,7 @@ new Vue({
 // <p class="btn btn-primary"></p>
 ```
 
-####  v-bind:style="{}"
+#### v-bind:style="{}"
 
 对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象。CSS 属性名可以用驼峰式 \(camelCase\) 或短横线分隔 \(kebab-case，记得用单引号括起来\) 来命名：
 

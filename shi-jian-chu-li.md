@@ -137,3 +137,7 @@ new Vue({
 
 关于mac和windows下的区别, 由于不常用, 不在此展开介绍, 有兴趣的同学可以翻看[文档](https://cn.vuejs.org/v2/guide/events.html#修饰键)
 
+### 测验
+
+
+

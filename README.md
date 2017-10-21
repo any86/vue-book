@@ -15,6 +15,8 @@
 
 4. [sourceTree](https://www.sourcetreeapp.com/)
 
+5. vscode\(Vetur\)
+
 ### 初期需要知道的几个概念
 
 [https://jsfiddle.net/](https://jsfiddle.net/)

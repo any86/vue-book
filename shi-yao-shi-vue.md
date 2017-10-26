@@ -52,11 +52,12 @@ new Vue({
 
 ### vue和jq的增删改查对比
 
-**vue**输入框  
+**vue:**  
 [https://jsfiddle.net/\_russell997/kmb0q8og/9/](https://jsfiddle.net/_russell997/kmb0q8og/9/)
 
-1. **jq**输入框
-   [https://jsfiddle.net/\_russell997/wjb5atk8/12/](https://jsfiddle.net/_russell997/wjb5atk8/12/)
+**jq:**
+
+[https://jsfiddle.net/\_russell997/wjb5atk8/12/](https://jsfiddle.net/_russell997/wjb5atk8/12/)
 
 ## 看一个封装成组件的例子
 

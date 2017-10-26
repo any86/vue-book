@@ -2,18 +2,20 @@
 
 一个js框架, 可以让你写更少的代码, 同时代码更容易维护和迭代, 在vue中我们只需要做数据的处理, 不做dom的操作, 控制显示隐藏.
 
-jq: 
+jq:
 
 ```
-<div id="dialog">xxx</div>
-<button>显示/隐藏</button>    
+<div id="app">       
+    <div id="dialog">xxx</div>
+    <button>显示/隐藏</button>
+</div>
 ```
 
 ```
 $(function(){
     var $dialog = $('#dialog');
     var $button = $('#button');
-    
+
     $button.click(function(){
         var isVisible = $dialog.is(':visible');
         if(isVisible){
@@ -25,18 +27,29 @@ $(function(){
 });
 ```
 
-vue: 
+vue:
 
 ```
-<div v-show="">xxx</div>
-<button>显示/隐藏</button>   
+<div id="app">   
+    <div v-show="">xxx</div>
+    <button>显示/隐藏</button>
+</div>
 ```
 
 ```
-this.list.push(100);
+new Vue({
+    el: '#app',
+    data: {
+        isVisible: false
+    },
+    methods: {
+        toggle: function(){
+            this.isVisible = !this.isVisible;
+        }
+    }
+})
+
 ```
-
-
 
 ### vue和jq的增删改查对比
 

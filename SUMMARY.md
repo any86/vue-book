@@ -1,6 +1,6 @@
 # Summary
 
-* [什么是vue](shi-yao-shi-vue.md)
+* [为什么学vue](shi-yao-shi-vue.md)
 * [课程简介](README.md)
 * [浏览器中的vue](yin-ru-vue.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)

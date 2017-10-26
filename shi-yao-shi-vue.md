@@ -11,7 +11,7 @@ jq:
 </div>
 ```
 
-```
+```js
 $(function(){
     var $dialog = $('#dialog');
     var $button = $('#button');
@@ -36,7 +36,7 @@ vue:
 </div>
 ```
 
-```
+```js
 new Vue({
     el: '#app',
     data: {

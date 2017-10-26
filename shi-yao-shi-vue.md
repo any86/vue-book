@@ -7,7 +7,7 @@ jq:
 ```
 <div id="app">       
     <div id="dialog">xxx</div>
-    <button>显示/隐藏</button>
+    <button onclick="toggle">显示/隐藏</button>
 </div>
 ```
 
@@ -16,14 +16,14 @@ $(function(){
     var $dialog = $('#dialog');
     var $button = $('#button');
 
-    $button.click(function(){
+    function toggle(){
         var isVisible = $dialog.is(':visible');
         if(isVisible){
             $dialog.hide();
         } else {
             $dialog.show();
         }
-    });
+    };
 });
 ```
 
@@ -32,7 +32,7 @@ vue:
 ```
 <div id="app">   
     <div v-show="">xxx</div>
-    <button>显示/隐藏</button>
+    <button v-on="toggle">显示/隐藏</button>
 </div>
 ```
 
@@ -48,7 +48,6 @@ new Vue({
         }
     }
 })
-
 ```
 
 ### vue和jq的增删改查对比

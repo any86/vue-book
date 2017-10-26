@@ -1,6 +1,40 @@
 ## 什么是vue?
 
-一个js框架, 可以让你写更少的代码, 同时代码更容易维护和迭代, 在vue中我们只需要做数据的处理, 不做dom的操作, 比如列表的插入操作:
+一个js框架, 可以让你写更少的代码, 同时代码更容易维护和迭代, 在vue中我们只需要做数据的处理, 不做dom的操作, 控制显示隐藏.
+
+jq: 
+
+```
+<div id="dialog">xxx</div>
+<button>显示/隐藏</button>    
+```
+
+```
+$(function(){
+    var $dialog = $('#dialog');
+    var $button = $('#button');
+    
+    $button.click(function(){
+        var isVisible = $dialog.is(':visible');
+        if(isVisible){
+            $dialog.hide();
+        } else {
+            $dialog.show();
+        }
+    });
+});
+```
+
+vue: 
+
+```
+<div v-show="">xxx</div>
+<button>显示/隐藏</button>   
+```
+
+```
+this.list.push(100);
+```
 
 
 

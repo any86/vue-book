@@ -6,14 +6,13 @@
 
 ### 需要的准备的环境
 
-1. [nodejs](https://nodejs.org/en/)
-2. cnpm :  npm i cnpm --g
+1. vscode\(Vetur\)
+2. [nodejs](https://nodejs.org/en/)
+3. cnpm :  npm i cnpm --g
 
-3. [git](https://git-scm.com/downloads)
+4. [git](https://git-scm.com/downloads)
 
-4. [sourceTree](https://www.sourcetreeapp.com/)
-
-5. vscode\(Vetur\)
+5. [sourceTree](https://www.sourcetreeapp.com/)
 
 ### 初期需要知道的几个概念
 

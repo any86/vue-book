@@ -32,7 +32,7 @@ git
 
 github
 
-事件驱动
+数据驱动型框架
 
 scss
 

@@ -1,6 +1,7 @@
 # Summary
 
 * [课程简介](README.md)
+* [什么是vue](shi-yao-shi-vue.md)
 * [起步,  浏览器中的vue](yin-ru-vue.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)

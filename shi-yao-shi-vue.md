@@ -14,7 +14,7 @@
 
 ## 为什么vue这样框架越来越受企业欢迎?
 
-其实不止vue, 还有react和angular, 
+其实不止vue, 还有react和angular, 随着人们对手机越来越依赖, 越来越多的创业公司都是基于app来展开的,
 
 ## vue和jq有什么区别?
 

@@ -103,21 +103,6 @@ new Vue({
 
 京东金融/新浪金融/饿了么等, 看下[新浪金融](http://jr.sina.cn/public/sina_finance/index.html#/index), 这个页面不要关, 一会我还会具体提到这个页面.
 
-## 我在哈尔滨工作, vue有什么好处?
-
-[公司1](http://jobs.zhaopin.com/466808186250025.htm)  
-[公司2](http://jobs.zhaopin.com/366690639250012.htm?ssidkey=y&ss=201&ff=03&sg=663ec87602fd40edaf6d1128593b707a&so=1)
-
-17年开始, 哈尔滨越来越多的用人单位\(薪资6k+\)的招聘信息中明确要求会用vue或者react等框架, 从自身角度为了涨工资,我们应该学习vue, 或者说vue是进入前端高薪领域一道门, 毕竟我们会的技能越契合企业需求收入越高. 而且vue开发的spa更适合企业去套壳实现ios和安卓端, 节约成本.  
-1. 对于有jq开发经验的前端, 你们学vue并不会太难, 只要指点下概念, 改变下传统的前端开发思维, 很容易即可学会.  
-2. 对于前端初学者, 如果对前端非常有热情, 我就建议你学vue, 毕竟现在vue已经在哈尔滨慢慢开始生根,过1/2年在哈尔滨vue就会铺开变成必备技能, 到时候被动的学, 不如现在就主动学习. 咱们学校也有意推动vue在哈尔滨企业的发展, 日后企业需要前端, 我们都会推荐给他们会vue的前端.
-
-## 我要去北上广, 那里有公司在用吗?
-
-看看拉钩搜索前端在北京地区的结果,  
-[拉钩网搜索'前端'](https://www.lagou.com/jobs/list_前端?labelWords=&fromSearch=true&suginput=)  
-你会发现基本所有公司都要求会用vue或者react框架
-
 ## jq还用不用了?
 
 如果单位还需要兼容ie低版本的浏览器, jq用来做交互少的活动页面最适合, 比如[fullpage](https://alvarotrigo.com/fullPage/#firstPage)类型的广告页面和企业官网. 如果只是兼容高版本浏览器的活动页可以直接用原生js, 这样我们页面的体积会更小\(**vue**: 28.96kb min+gzip / **jquery-3.2.1.min** : 30.63kb min+gzip\), 因为高版本浏览器支持querySelector\(\)和css3动画.  

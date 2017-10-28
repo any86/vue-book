@@ -14,7 +14,7 @@
 
 ## 为什么vue这样框架越来越受企业欢迎?
 
-其实不止vue, 还有react和angular
+其实不止vue, 还有react和angular, 
 
 ## vue和jq有什么区别?
 

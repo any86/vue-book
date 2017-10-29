@@ -57,6 +57,10 @@ new Vue({
 
 注意这只是原生html标签是上$event才表示event, 如果是自定义组件是不同的.
 
+### 测验: 
+
+做一个按钮, 每次点击+1或者计算器
+
 ### 事件修饰符
 
 简单的说就是可以在模板中是用v-on的时候, 通过在"v-on"后加".xxx", 实现**event.preventDefault\(\) **或 **event.stopPropagation\(\)等常见操作.**
@@ -136,8 +140,6 @@ new Vue({
 ```
 
 关于mac和windows下的区别, 由于不常用, 不在此展开介绍, 有兴趣的同学可以翻看[文档](https://cn.vuejs.org/v2/guide/events.html#修饰键)
-
-### 测验
 
 
 

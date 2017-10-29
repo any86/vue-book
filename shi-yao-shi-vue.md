@@ -81,7 +81,7 @@ new Vue({
 
 [https://jsfiddle.net/\_russell997/wjb5atk8/12/](https://jsfiddle.net/_russell997/wjb5atk8/12/)
 
-## 看一个封装成组件的例子
+## vue让你的代码可复用
 
 [对话框组件](https://jsfiddle.net/yyx990803/mwLbw11k/?utm_source=website&utm_medium=embed&utm_campaign=mwLbw11k)
 

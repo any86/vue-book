@@ -67,5 +67,5 @@ new Vue({
 
 ### 测验
 
-独立完成上面的例子.
+实现一个autocomplete的input框
 

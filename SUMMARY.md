@@ -8,7 +8,7 @@
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)
   * [事件处理: methods](shi-jian-chu-li.md)
-  * [操作数据注意事项](cao-zuo-shu-ju.md)
+  * [操作数据注意事项: data](cao-zuo-shu-ju.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [计算属性: computed](ji-suan-shu60273a-computed.md)
   * [观察者: watch](guan-cha-80053a-watch.md)

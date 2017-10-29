@@ -6,15 +6,30 @@
 
 大部分书籍都比较不平民, 专业术语太多, 我要做的就是帮你把这些难懂的专业术语转换成生活中的大白话讲给你.
 
-### 需要的准备的环境
+### 需要的准备的
 
-1. vscode\(Vetur\)
-2. [nodejs](https://nodejs.org/en/)
-3. cnpm :  npm i cnpm --g
+##### vscode\(Vetur\)
 
-4. [git](https://git-scm.com/downloads)
+编辑器, 借助vetur插件完美支持vue的语法提示和校验.
 
-5. [sourceTree](https://www.sourcetreeapp.com/)
+##### git
+
+一个比svn更细腻的代码管理工具, 而且更流行, 不想svn每次代码提交都是直接提交到服务器, 而是分2次, 第一次存储到本地的代码仓库, 第二步比对服务器上的代码是否冲突, 如果冲突修改后才能提交到服务器, 让冲突发生在本地, 当然git的优势不仅仅如此, 比如还有强大的分支的概念, 这是多人开发的利器.
+
+##### sourceTree
+
+git的图形管理界面, git命令比较多, 为了方便我们可以通过sourceTree来管理服务器上的代码.
+
+##### github
+
+圈内戏称为程序员的交友平台, 微软/谷歌/fb/淘宝等大公司的大牛们都把开源项目上传到这里, 而上传工具就是刚才咱们说的git, 当然我们国内还有码云, 看这个人和喜好吧. 唯一要注意的是, github上的代码如果不想让其他人看到是是需要付费的, 但是码云免费.
+
+1. [nodejs](https://nodejs.org/en/)
+2. cnpm :  npm i cnpm --g
+
+3. [git](https://git-scm.com/downloads)
+
+4. [sourceTree](https://www.sourcetreeapp.com/)
 
 ### 初期需要知道的几个概念
 

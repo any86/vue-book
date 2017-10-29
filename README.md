@@ -18,7 +18,7 @@
 
 ### 初期需要知道的几个概念
 
-[https://jsfiddle.net/](https://jsfiddle.net/) 注: 未来课堂上的小测试都会在这上面写,  方便大家未来面试时候用.
+[https://jsfiddle.net/](https://jsfiddle.net/) 注: 未来课堂上的小测试都会在这上面写,  方便大家未来面试时用.
 
 npm
 

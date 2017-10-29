@@ -99,8 +99,6 @@ vue最核心的概念就是组件, 就是把js/css/html抽象成一个标签, �
 </div>
 ```
 
-
-
 ## 大公司的vue产品
 
 京东金融/新浪金融/饿了么等, 看下[新浪金融](http://jr.sina.cn/public/sina_finance/index.html#/index), 这个页面不要关, 一会我还会具体提到这个页面.
@@ -236,7 +234,7 @@ $color:#69c;
 
 ## 学会了做什么?
 
-做一个[组件库](https://github.com/Atom-H/atom-ui-mobile)和一个前后台spa\(基于饿了么组件库\).
+做一个商城前台spa和一个前后台spa\(基于饿了么组件库\), 中间也会穿插教大家做几个常见的表单组件.
 
 ## 善用sf提问
 

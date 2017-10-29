@@ -13,7 +13,7 @@
   * [计算属性: computed](ji-suan-shu60273a-computed.md)
   * [观察者: watch](guan-cha-80053a-watch.md)
   * [异步操作库: axios.js](yi-bu-cao-zuo-5e933a-axios-js.md)
-  * [做一个完整的todo-list](zuo-yi-ge-wan-zheng-de-todo-list.md)
+  * [实现自己的todo-list](zuo-yi-ge-wan-zheng-de-todo-list.md)
 * [动画: animate](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)

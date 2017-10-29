@@ -119,5 +119,5 @@ var example2 = new Vue({
 
 ### 测验
 
-结合input框的"v-bind:value"做一个带筛选功能的表格, 简单实现即可, 样式随意发挥.
+结合input框的"v-bind:value"做一个带筛选功能的表格, 简单实现即可, 样式/表格里面的内容随意发挥.
 

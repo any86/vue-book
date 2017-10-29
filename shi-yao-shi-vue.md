@@ -83,6 +83,8 @@ new Vue({
 
 ## vue让你的代码可复用
 
+vue最核心的概念就是组件, 就是把js/css/html抽象成一个标签, 这样通过标签上自定义的属性就可以在页面进行控制这个封装的组件.
+
 [对话框组件](https://jsfiddle.net/yyx990803/mwLbw11k/?utm_source=website&utm_medium=embed&utm_campaign=mwLbw11k)
 
 只看调用组件部分
@@ -97,7 +99,7 @@ new Vue({
 </div>
 ```
 
-思想就是把js/css/html抽象成一个标签, 这样通过标签上自定义的属性就可以在页面进行控制这个封装的组件.
+
 
 ## 大公司的vue产品
 

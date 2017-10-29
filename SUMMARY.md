@@ -3,7 +3,7 @@
 * [为什么学vue](shi-yao-shi-vue.md)
 * [课程简介](README.md)
 * [浏览器中的vue](yin-ru-vue.md)
-  * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
+  * [调试工具: vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)

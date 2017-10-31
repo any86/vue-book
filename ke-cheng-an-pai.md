@@ -19,8 +19,14 @@
 
 | **第三天** | **内容** |
 | :--- | :--- |
-|  | 介绍数据绑定的核心原理**Object.defineproperty** |
+| 上午 | 介绍数据绑定的核心原理**Object.defineproperty** |
 |  | 结合vue实例的生命周期created/mounted/destoryed等 |
+| 下午 | 计算属性\(computed\) |
+|  | 观察者\(watch\) |
+
+| **第四天** | **内容** |
+| :--- | :--- |
+|  |  |
 
 
 

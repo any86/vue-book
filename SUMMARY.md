@@ -2,6 +2,7 @@
 
 * [为什么学vue](shi-yao-shi-vue.md)
 * [课程简介](README.md)
+  * [课程安排](ke-cheng-an-pai.md)
 * [浏览器中的vue](yin-ru-vue.md)
   * [调试工具: vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)

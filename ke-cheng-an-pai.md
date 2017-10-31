@@ -2,7 +2,8 @@
 
 | **第一天** | **内容** |
 | :--- | :--- |
-| 上午 | 课程介绍, 解释一些最新的前端概念和常用工具.如jsfiddle/webpack/mvvm/scss/es6/vscode等等. |
+| 上午 | 课程介绍, 解释一些最新的前端概念和常用工具.如webpack/mvvm/scss/es6/vscode等等. |
+|  | 认识并学会使用jsfiddle |
 |  | 通过hello world 学会使用调试工具vue-devtools |
 |  | 了解数据绑定的概念, 练习v-bind指令和插值 |
 | 下午 | 学习2个特殊的属性的绑定: style和class |

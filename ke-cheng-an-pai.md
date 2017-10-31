@@ -15,7 +15,7 @@
 |  | 讲解事件修饰符, 以及如何实现组合键. |
 |  | 分别讲解在方法中操作引用型数据\(Object/Array\)的注意事项 |
 | 下午 | 结合表单元素讲解双向数据绑定的概念, 以及v-model原理. |
-|  | 练习几个vue中常用的数组函数pop/push/splice/reverse/ |
+|  | 练习几个vue中常用的数组函数pop/push/splice/reverse/shift/sort等. |
 
 | **第三天** | **内容** |
 | :--- | :--- |

@@ -4,9 +4,9 @@
 | :--- | :--- |
 | 上午 | 课程介绍, 解释一些最新的前端概念和常用工具.如jsfiddle/webpack/mvvm/scss/es6/vscode等等 |
 |  | 通过hello world 学会使用调试工具vue-devtools |
-|  | 了解数据绑定的概念, 练习v-bind指令和插值 |
+|  | 了解数据绑定的概念, 练习v-bind指令和插值, 以及特殊的绑定v-bind:class和v-bind:style |
 | 下午 | 学习使用v-if相关和v-for进行流程判断和循环渲染 |
-|  | 学会使用methods定义事件和在模板中调用事件 |
+|  | 学会使用methods定义事件和在模板中调用事件, |
 
 | **第二天** | 内容 |
 | :--- | :--- |

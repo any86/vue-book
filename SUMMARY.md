@@ -2,19 +2,19 @@
 
 * [为什么学vue](shi-yao-shi-vue.md)
 * [课程简介](README.md)
-  * [课程安排](ke-cheng-an-pai.md)
 * [浏览器中的vue](yin-ru-vue.md)
-  * [调试工具: vue-devtools](diao-shi-gong-ju-vue-devtools.md)
+  * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
   * [数据绑定: v-bind](v-bind.md)
   * [条件判断: v-if & v-if-else & v-else](tiao-jian-yu-xun-huan.md)
   * [循环: v-for](xun-huan.md)
   * [事件处理: methods](shi-jian-chu-li.md)
-  * [操作数据注意事项: data](cao-zuo-shu-ju.md)
+  * [操作数据注意事项](cao-zuo-shu-ju.md)
   * [双向数据绑定: v-model](chu-li-yong-hu-shu-51653a-v-model.md)
   * [计算属性: computed](ji-suan-shu60273a-computed.md)
   * [观察者: watch](guan-cha-80053a-watch.md)
   * [异步操作库: axios.js](yi-bu-cao-zuo-5e933a-axios-js.md)
-  * [实现自己的todo-list](zuo-yi-ge-wan-zheng-de-todo-list.md)
+  * [git & sourcetree & github](gitandsourcetree.md)
+  * [在vue中用jq插件](zai-vue-zhong-yong-jq-cha-jian.md)
 * [动画: animate](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
   * [列表动画](di-wu-6b652c-dong-hua/hong-fa-tiao-jian/lie-biao-dong-hua.md)
@@ -77,5 +77,4 @@
 * webpack配置多页
 * 关于dom尺寸/位置信息获取
 * [补遗一些高级技巧](bu-yi-yi-xie-gao-ji-ji-qiao.md)
-* svg与vue
 

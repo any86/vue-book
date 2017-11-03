@@ -76,5 +76,5 @@
 * webpack配置多页
 * 关于dom尺寸/位置信息获取
 * [补遗一些高级技巧](bu-yi-yi-xie-gao-ji-ji-qiao.md)
-* 服务端渲染: ssr
+* 服务端渲染: nuxt
 

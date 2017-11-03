@@ -13,7 +13,6 @@
   * [计算属性: computed](ji-suan-shu60273a-computed.md)
   * [观察者: watch](guan-cha-80053a-watch.md)
   * [异步操作库: axios.js](yi-bu-cao-zuo-5e933a-axios-js.md)
-  * [git & sourcetree & github](gitandsourcetree.md)
   * [在vue中用jq插件](zai-vue-zhong-yong-jq-cha-jian.md)
 * [动画: animate](di-wu-6b652c-dong-hua.md)
   * [触发条件](di-wu-6b652c-dong-hua/hong-fa-tiao-jian.md)
@@ -77,4 +76,5 @@
 * webpack配置多页
 * 关于dom尺寸/位置信息获取
 * [补遗一些高级技巧](bu-yi-yi-xie-gao-ji-ji-qiao.md)
+* 服务端渲染: ssr
 

@@ -12,7 +12,10 @@ var app = new Vue({
     } // 自定义变量, 都放在data对象下面
 });
 
-app.text = 'hello china!'
+setInterval(function(){
+    app.text = 'hello china!' + Math.random().toString().substr(2,6);
+}, 1000);
+
 ```
 
 ### 安装

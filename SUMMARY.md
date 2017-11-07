@@ -1,6 +1,6 @@
 # Summary
 
-* [为什么学vue](shi-yao-shi-vue.md)
+* [为什么学vue?](shi-yao-shi-vue.md)
 * [课程简介](README.md)
 * [浏览器中的vue](yin-ru-vue.md)
   * [调试工具vue-devtools](diao-shi-gong-ju-vue-devtools.md)
@@ -77,4 +77,5 @@
 * 关于dom尺寸/位置信息获取
 * [补遗一些高级技巧](bu-yi-yi-xie-gao-ji-ji-qiao.md)
 * 服务端渲染: nuxt
+* json-server + fake.js
 

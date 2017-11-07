@@ -15,8 +15,9 @@ var app = new Vue({
 setInterval(function(){
     app.text = 'hello china!' + Math.random().toString().substr(2,6);
 }, 1000);
-
 ```
+
+观察数据变化
 
 ### 安装
 

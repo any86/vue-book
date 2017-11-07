@@ -5,18 +5,14 @@
 ![](/assets/vue-devtools.png)
 
 ```js
-new Vue({
+var app = new Vue({
     el: '#app', // 绑定id为app的元素, 只操作app内的标签
     data: {
         text: 'hello world'
-    }, // 自定义变量, 都放在data对象下面
-
-    methods: {
-        xxx: function(){
-            this.text = 'hello china'
-        }
-    }
+    } // 自定义变量, 都放在data对象下面
 });
+
+app.text = 'hello china!'
 ```
 
 ### 安装

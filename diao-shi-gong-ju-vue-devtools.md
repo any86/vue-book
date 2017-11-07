@@ -17,9 +17,9 @@
 
    官方地址: [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 
+### 测验
 
-
-### 例子
+运行一下代码, 并用vue-devtools观察数据变化
 
 ```js
 var app = new Vue({
@@ -38,7 +38,5 @@ setInterval(function(){
 
 ### 
 
-### 测验
 
-粘贴上述代码, 并用vue-devtools观察数据变化
 

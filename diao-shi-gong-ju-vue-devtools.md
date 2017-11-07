@@ -21,7 +21,7 @@ new Vue({
 
 ### 安装
 
-首先需要大家安装nodejs/git
+首先需要大家安装nodejs
 
 还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**Clone this repo
 

@@ -17,7 +17,7 @@ setInterval(function(){
 }, 1000);
 ```
 
-观察数据变化
+好了, 请观察devtools中的数据变化.
 
 ### 安装
 

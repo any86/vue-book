@@ -19,7 +19,7 @@ setInterval(function(){
 
 好了, 请观察devtools中的数据变化.
 
-注意app.text就是data上的text, vue实例化后会自动在实例\(app\)上代理data上的数据.
+**注意**app.text就是data上的text, vue实例化后会自动在实例\(app\)上代理data上的数据.
 
 ### 安装
 

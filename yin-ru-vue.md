@@ -31,7 +31,7 @@
 
 实例化vue
 
-```
+```js
 var vm = new Vue({
     el: '#app', // 绑定id为app的元素, 只操作app内的标签
     data: {

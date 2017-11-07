@@ -21,22 +21,16 @@ new Vue({
 
 ### 安装
 
-首先需要大家安装nodejs
+1. 首先需要大家安装nodejs
+2. 下载vue-devtools [https://github.com/vuejs/vue-devtools/archive/master.zip](https://github.com/vuejs/vue-devtools/archive/master.zip), 并解压, 不要解压到桌面.
+3. 解压后, 从命令行进入该文件夹.
+4. 运行cnpm i, 等待安装.
+5. 等待完成后, 运行 npm run build, 等待编译.
+6. 编译完成后, 打开谷歌浏览器的"扩展程序"菜单.
+7. 勾选打开"开发者模式".
+8. 点击"加载已解压的扩展程序", 选择**shells/chrome**目录
 
-还记得之前让大家安装的nodejs吧, 现在打开**命令行工具, 运行如下命令:**Clone this repo
-
-1. 克隆[https://github.com/vuejs/vue-devtools.git](https://github.com/vuejs/vue-devtools.git)
-2. 在nodejs命令行下运行cnpm i
-
-3. 安装完成后, 运行npm run build
-
-4. 打开谷歌浏览器的"扩展程序"菜单
-
-5. 勾选打开"开发者模式"
-
-6. 点击"加载已解压的扩展程序", 选择**shells/chrome**目录
-
-官方地址: [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
+   官方地址: [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 
 ### 测验
 
